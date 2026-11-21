@@ -11,6 +11,8 @@ Simulador fictício das Séries A, B e C do Campeonato Brasileiro de 2027. Escol
 3. Digite os gols do mandante e do visitante. A classificação é recalculada assim que os dois campos forem preenchidos.
 4. Pressione **Enter** no segundo campo para ir ao próximo jogo. No último confronto, o atalho avança para a próxima rodada quando ela estiver disponível.
 
+A tabela mostra o aproveitamento em **%** e os resultados dos **Últimos 3** jogos concluídos.
+
 Cada divisão mantém seus próprios placares enquanto a página estiver aberta. **Limpar rodada** apaga os placares da rodada exibida e **Limpar tudo** reinicia a divisão selecionada. Recarregar a página reinicia a simulação.
 
 ## Série A
@@ -43,7 +45,8 @@ dist/
 ├── silon-filho.png
 ├── serie-b/ (escudos da Série B)
 ├── serie-c.js
-└── serie-c/ (escudos da Série C)
+├── serie-c/ (escudos da Série C)
+└── uniformes/ (imagens guardadas para uso futuro)
 ```
 
 ## Publicar no Render
