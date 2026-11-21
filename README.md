@@ -45,8 +45,7 @@ dist/
 ├── silon-filho.png
 ├── serie-b/ (escudos da Série B)
 ├── serie-c.js
-├── serie-c/ (escudos da Série C)
-└── uniformes/ (imagens guardadas para uso futuro)
+└── serie-c/ (escudos da Série C)
 ```
 
 ## Publicar no Render
