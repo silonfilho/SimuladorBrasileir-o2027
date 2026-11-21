@@ -1,12 +1,12 @@
 # Brasileirão2027
 
-Simulador fictício das Séries A e B do Campeonato Brasileiro de 2027. Escolha uma divisão, preencha os placares e acompanhe a classificação em tempo real. Cada divisão tem 20 clubes e 380 jogos de fase regular, distribuídos em 38 rodadas.
+Simulador fictício das Séries A, B e C do Campeonato Brasileiro de 2027. Escolha uma divisão, preencha os placares e acompanhe a classificação em tempo real. As Séries A e B têm 20 clubes e 38 rodadas cada. A Série C tem 24 clubes e três fases.
 
 **[Jogar Brasileirão2027](https://simuladorbrasileir-o2027.onrender.com)**
 
 ## Como jogar
 
-1. Clique em **Brasileirão2027** ou **SérieB2027** no topo para escolher a divisão.
+1. Clique em **Brasileirão2027**, **SérieB2027** ou **SérieC2027** no topo para escolher a divisão.
 2. Use os números acima da lista de jogos para navegar entre as rodadas.
 3. Digite os gols do mandante e do visitante. A classificação é recalculada assim que os dois campos forem preenchidos.
 4. Pressione **Enter** no segundo campo para ir ao próximo jogo. No último confronto, o atalho avança para a próxima rodada quando ela estiver disponível.
@@ -27,6 +27,10 @@ Os dois primeiros sobem diretamente e os quatro últimos são rebaixados. Ao com
 - O 3º e o 4º disputam a volta em casa e avançam em caso de empate no placar agregado.
 - Os dois vencedores garantem as vagas restantes na Série A de 2028.
 
+## Série C
+
+A primeira fase tem 23 rodadas em turno único. Os oito primeiros avançam aos quadrangulares e os dois últimos caem. Nos quadrangulares, os dois primeiros de cada grupo sobem, e os líderes disputam a final em ida e volta. Um empate no agregado da final é decidido nos pênaltis.
+
 ## Executar localmente
 
 Abra `dist/index.html` no navegador. O simulador usa HTML, CSS e JavaScript e roda sem instalar dependências. A interface tem modos claro e escuro e se adapta a telas de celular.
@@ -37,8 +41,9 @@ dist/
 ├── favicon.png
 ├── manrope-600.woff2
 ├── silon-filho.png
-└── serie-b/
-    └── Escudos dos clubes da Série B
+├── serie-b/ (escudos da Série B)
+├── serie-c.js
+└── serie-c/ (escudos da Série C)
 ```
 
 ## Publicar no Render
