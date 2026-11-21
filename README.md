@@ -2,7 +2,7 @@
 
 Simulador fictício do Campeonato Brasileiro Série A de 2027. Preencha os placares dos 380 jogos, distribuídos em 38 rodadas, e acompanhe a classificação em tempo real.
 
-**[Jogar Brasileirão2027](https://simulador-brasileirao-2027.lonsinhofilho.chatgpt.site)**
+**[Jogar Brasileirão2027]((https://simuladorbrasileir-o2027.onrender.com))**
 
 ## Como jogar
 
